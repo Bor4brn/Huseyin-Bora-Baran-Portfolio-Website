@@ -18,7 +18,7 @@ export interface socialBrandsTypes {
   id: number;
   name: string;
   icon: string;
-  link: string;
+  link?: string;
 }
 
 export interface counterListsType {
@@ -34,7 +34,7 @@ export interface myExperienceTypes {
   company: string;
   label: string;
   description: string;
-  link: string;
+  link?: string;
   logo: string | StaticImageData;
 }
 
@@ -43,7 +43,7 @@ export interface myStackTypes {
   title: string;
   description: string;
   logo: string | StaticImageData;
-  link: string;
+  link?: string;
 }
 
 export interface myServicesTypes {
@@ -51,13 +51,13 @@ export interface myServicesTypes {
   title: string;
   description: string;
   icon: string;
-  link: string;
+  link?: string;
 }
 export interface myShowCasesTypes {
   id: number;
   title: string;
   description: string;
-  link: string;
+  link?: string;
   type: string;
   theme: string;
   pages: number;

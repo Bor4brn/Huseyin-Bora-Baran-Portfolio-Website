@@ -79,31 +79,26 @@ export const socialBrands: socialBrandsTypes[] = [
     id: 1,
     name: "Discord",
     icon: discord,
-    link: "https://discord.com",
   },
   {
     id: 3,
     name: "Facebook",
     icon: facebook,
-    link: "https://facebook.com",
   },
   {
     id: 4,
     name: "Pinterest",
     icon: pinterest,
-    link: "https://pinterest.com",
   },
   {
     id: 5,
     name: "SnapChat",
     icon: snapchat,
-    link: "https://snapchat.com",
   },
   {
     id: 6,
     name: "Spotify",
     icon: spotify,
-    link: "https://open.spotify.com",
   },
 ];
 
@@ -138,7 +133,6 @@ export const myExperience: myExperienceTypes[] = [
     company: "Turkcell",
     label: 'Telecom Company',
     description: "Working on data analytics and machine learning projects to optimize customer experience and network performance.",
-    link: "turkcell.com.tr",
     logo: turkcellLogo
   },
   {
@@ -148,7 +142,6 @@ export const myExperience: myExperienceTypes[] = [
     company: "Telcoset",
     label: 'Network Solutions',
     description: "Developing automation scripts and tools for network management and configuration optimization.",
-    link: "telcoset.com",
     logo: telcosetLogo
   },
   {
@@ -158,7 +151,6 @@ export const myExperience: myExperienceTypes[] = [
     company: "Özyeğin University",
     label: 'University',
     description: "Supporting students in understanding mathematical concepts and solving complex differential equation problems.",
-    link: "ozyegin.edu.tr",
     logo: ozyeginLogo
   }
 ]
@@ -169,49 +161,42 @@ export const myStack: myStackTypes[] = [
     title: "Java",
     description: "Programming Language",
     logo: javaLogo,
-    link: "https://www.java.com",
   },
   {
     id: 2,
     title: "Python",
     description: "Programming Language",
     logo: pythonLogo,
-    link: "https://www.python.org",
   },
   {
     id: 3,
     title: "C++",
     description: "Programming Language",
     logo: cppLogo,
-    link: "https://isocpp.org",
   },
   {
     id: 4,
     title: "SQL",
     description: "Database Language",
     logo: sqlLogo,
-    link: "https://www.mysql.com",
   },
   {
     id: 5,
     title: "Spring Framework",
     description: "Java Framework",
     logo: springLogo,
-    link: "https://spring.io",
   },
   {
     id: 6,
     title: "PyTorch",
     description: "Machine Learning Framework",
     logo: pytorchLogo,
-    link: "https://pytorch.org",
   },
   {
     id: 7,
     title: "TensorFlow",
     description: "Deep Learning Framework",
     logo: tensorflowLogo,
-    link: "https://www.tensorflow.org",
   }
 ]
 
@@ -221,28 +206,24 @@ export const myServices: myServicesTypes[] = [
     title: 'Machine Learning',
     description: 'Building intelligent systems using advanced ML algorithms and neural networks for predictive analytics.',
     icon: webDesignIcon,
-    link: '/services'
   },
   {
     id: 2,
     title: 'Deep Learning',
     description: 'Developing complex neural networks for computer vision, NLP, and pattern recognition applications.',
     icon: webDevIcon,
-    link: '/services'
   },
   {
     id: 3,
     title: 'Backend Development',
     description: 'Creating robust server-side applications with scalable architecture and efficient database management.',
     icon: graphicDesignIcon,
-    link: '/services'
   },
   {
     id: 4,
     title: 'Data Engineering',
     description: 'Designing and implementing data pipelines for large-scale data processing and analytics solutions.',
     icon: seoOptIcon,
-    link: '/services'
   }
 ]
 
@@ -251,7 +232,6 @@ export const myShowCases: myShowCasesTypes[] = [
     id: 5,
     title: 'SnapMath',
     description: 'End-to-end system that converts handwritten/printed math into LaTeX and solves them with SymPy.',
-    link: 'snapmath.ai',
     type: 'AI/ML',
     theme: 'Dark',
     pages: 1,
@@ -287,7 +267,6 @@ export const myShowCases: myShowCasesTypes[] = [
     id: 6,
     title: 'MedMarket AI',
     description: 'AI-powered sales platform for medical procedures with RAG chatbot that negotiates prices and recommends doctors.',
-    link: 'medmarket.ai',
     type: 'AI/ML',
     theme: 'Dark',
     pages: 1,
@@ -324,7 +303,6 @@ export const myShowCases: myShowCasesTypes[] = [
     id: 7,
     title: 'CarGo',
     description: 'Production-style Spring Boot backend for car-rental service with clean architecture and OpenAPI docs.',
-    link: 'cargo-rental.com',
     type: 'Backend',
     theme: 'Dark',
     pages: 1,
@@ -360,7 +338,6 @@ export const myShowCases: myShowCasesTypes[] = [
     id: 8,
     title: 'FileScope',
     description: 'Intelligent file analyzer that classifies, audits, and cleans local files using machine learning algorithms.',
-    link: 'filescope.app',
     type: 'AI/ML',
     theme: 'Dark',
     pages: 1,
@@ -400,7 +377,6 @@ export const myShowCases: myShowCasesTypes[] = [
     id: 9,
     title: 'Cisco NSO L3VPN Automation',
     description: 'NSO service that provisions end-to-end L3VPNs with idempotent workflows and RESTCONF API.',
-    link: 'nso-l3vpn.cisco.com',
     type: 'Network Automation',
     theme: 'Dark',
     pages: 1,
@@ -436,7 +412,6 @@ export const myShowCases: myShowCasesTypes[] = [
     id: 10,
     title: 'TableRAG',
     description: 'SQL-native RAG system for tabular data that answers natural-language questions over Excel workbooks.',
-    link: 'tablerag.ai',
     type: 'AI/ML',
     theme: 'Dark',
     pages: 1,
@@ -474,7 +449,6 @@ export const myShowCases: myShowCasesTypes[] = [
     id: 11,
     title: 'UCSS',
     description: 'University Course Selection System with role-based access, clash detection, and waitlist management built in Java 21.',
-    link: 'ucss-university.edu',
     type: 'Web Application',
     theme: 'Dark',
     pages: 1,
@@ -524,7 +498,6 @@ export const myShowCases: myShowCasesTypes[] = [
     id: 12,
     title: 'TelcoScrape',
     description: 'Ethical web-scraping pipeline for phone release data with normalization and business analytics insights.',
-    link: 'telcoscrape.data',
     type: 'Data Engineering',
     theme: 'Dark',
     pages: 1,
@@ -563,7 +536,6 @@ export const myShowCases: myShowCasesTypes[] = [
     id: 13,
     title: 'SwipeWork',
     description: 'Tinder-style job discovery app with AI summaries and fit scoring - swipe to save/skip jobs with smart matching.',
-    link: 'swipework.app',
     type: 'Mobile App',
     theme: 'Dark',
     pages: 1,

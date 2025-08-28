@@ -32,6 +32,7 @@ export default function ShowCase({ isMore = true, showData = 2 }: {
 
                                         </div>
 
+                                        {item.link && (
                                         <div className="flex-none h-auto relative">
                                             <Link href={"https://"+item.link} target='_blank' className='bg-almost-black border border-dark-gray-4 flex cursor-pointer items-center flex-nowrap gap-[6px] h-min justify-center overflow-visible  relative w-min rounded-lg custom-padding group hover:bg-dark-gray-4 transition-all duration-500'
                                             >
@@ -49,6 +50,7 @@ export default function ShowCase({ isMore = true, showData = 2 }: {
 
                                             </Link>
                                         </div>
+                                        )}
                                     </div>
 
                                     <div className="border-y border-dark-gray-3 flex flex-none gap-3 h-min justify-start overflow-visible px-0 py-3 relative w-full flex-nowrap items-center">
