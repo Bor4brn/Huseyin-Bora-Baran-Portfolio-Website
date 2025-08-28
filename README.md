@@ -10,15 +10,6 @@ A modern portfolio website built with Next.js 15 and TypeScript.
 - **Animations:** Framer Motion
 - **Deployment:** Vercel
 
-## 🎯 Features
-
-- **9 Comprehensive Projects** - AI/ML, Backend, Mobile, Data Engineering
-- **Professional Experience** - Turkcell, Telcoset, Özyeğin University
-- **Tech Stack Showcase** - Visual logos and descriptions
-- **Contact Form** - Direct email integration
-- **Responsive Design** - Mobile-first approach
-- **Dark Theme** - Modern and clean interface
-
 ## 🚀 Quick Start
 
 ```bash
